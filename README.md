@@ -203,22 +203,6 @@ This application works in all modern browsers:
 - **No Tracking**: No analytics or tracking scripts
 - **Offline Capable**: Works without internet connection (after initial load)
 
-## Technical Details
-
-### Dependencies
-
-- **JsBarcode** (v3.11.5): Linear barcode generation
-- **bwip-js** (v4.0.1): Advanced barcode formats including PDF417
-
-### File Structure
-
-- Single HTML file containing all CSS and JavaScript
-- Embedded SVG icon
-- External CDN dependencies for barcode libraries
-
-### Browser Storage
-
-The application uses `localStorage` to remember your theme preference (dark/light mode).
 
 ## License
 
